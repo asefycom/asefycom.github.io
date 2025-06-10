@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مصطفی آصفی | صفحه شخصی</title>
+    <style>
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.8;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Typography */
+        h1, h2, h3 {
+            color: #bb86fc;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3700b3;
+            padding-bottom: 8px;
+        }
+        
+        p, li {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+        
+        a {
+            color: #03dac6;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        a:hover {
+            color: #bb86fc;
+            text-decoration: underline;
+        }
+        
+        /* Sections */
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+        
+        /* About Section Layout */
+        .about-container {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+        
+        .about-text {
+            flex: 1;
+        }
+        
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #3700b3;
+        }
+        
+        /* Lists */
+        ul {
+            list-style-type: none;
+            padding-right: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            padding: 8px 0;
+            border-bottom: 1px solid #333;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #9e9e9e;
+            font-size: 0.9rem;
+            border-top: 1px solid #333;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-container {
+                flex-direction: column;
+            }
+            
+            .profile-img {
+                width: 150px;
+                height: 150px;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- درباره من -->
+    <section id="about">
+        <h1>درباره من</h1>
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    مصطفی آصفی هستم. دو وبسایت هم‌رویش و سودگاه رو هدایت می‌کنم. 
+                    به پژوهش در زمینه هوش مصنوعی نظری و کاربردی علاقه مندم.
+                    یافته‌هام رو به صورت فیلم یا کتاب یا کارگاه منتقل می‌کنم.
+                </p>
+            </div>
+            <img src="profile.jpg" alt="عکس پرسنلی مصطفی آصفی" class="profile-img">
+        </div>
+    </section>
+
+    <!-- آموزش -->
+    <section id="education">
+        <h2>آموزش</h2>
+        <ul>
+            <li>
+                <a href="https://hamruyesh.com/product/ai-automation-n8n-zapier/" target="_blank">
+                    کارگاه خودکارسازی با هوش مصنوعی
+                </a>
+            </li>
+            <li>
+                <a href="https://pub.modares.ac.ir/book_treasure.php?mod=viewbook&book_id=412&slc_lang=fa&sid=1" target="_blank">
+                    کتاب مهندسی انفجار معادن با سیستم‌های هوشمند
+                </a>
+            </li>
+            <li>
+                <a href="https://hamruyesh.com/product/deep-learning-intro-pack/" target="_blank">
+                    دوره آنلاین یادگیری عمیق
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- توسعه -->
+    <section id="development">
+        <h2>توسعه</h2>
+        <ul>
+            <li>
+                <a href="https://soodgah.com/shop/trading-bot/P1062-metatrader-telegram-expert-advisor-qasedak.html" target="_blank">
+                    قاصدک ، ربات اتصال متاتریدر به تلگرام
+                </a>
+            </li>
+            <li>
+                <a href="https://soodgah.com/shop/trading-bot/P1114-tuti-copy-trading-expert-mt5.html" target="_blank">
+                    طوطی، ربات کپی تریدینگ
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- مشاوره -->
+    <section id="consultation">
+        <h2>مشاوره با من</h2>
+        <p>
+            برای رزرو زمان مشاوره به ایمیل 
+            <a href="mailto:asefycom@gmail.com">asefycom@gmail.com</a> 
+            پیام بفرستید. موضوعی که نیاز به مشاوره دارید بیان کنید. 
+            برآورد زمان و هزینه برای شما می‌فرستم.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        طراحی با دیپ‌سیک، میزبانی با گیت‌هاب
+   
