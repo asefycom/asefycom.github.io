@@ -4,59 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مصطفی آصفی | وب‌سایت شخصی</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap6PHQX6mNMVQqNNQO0bhfE4NqU/OR7Z+F4i9S3D/kZ6GL1kHuC1GP4TuJP2cA3kM6M9vwiyUAvKSuNcf3UQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        body {font-family: sans-serif; margin:0; background:#f9f9f9; color:#333;}
-        nav {background:#fff; padding:1rem; position:sticky; top:0; box-shadow:0 2px 4px rgba(0,0,0,0.1);}
-        nav ul {list-style:none; display:flex; gap:1rem; justify-content:center; padding:0; margin:0;}
-        nav a {text-decoration:none; color:#333; font-weight:bold;}
-        section {padding:4rem 1rem; max-width:800px; margin:auto;}
-        #about {display:flex; flex-wrap:wrap; align-items:center; gap:2rem;}
-        #about img {border-radius:50%; width:150px; height:150px; object-fit:cover;}
-        #about p {flex:1; line-height:1.8;}
-        .social-links a {margin:0 10px; color:#333; font-size:1.5rem;}
-        #works a {display:block; margin-bottom:1rem; text-decoration:none; color:#0077cc;}
-        #contact a {color:#0077cc; text-decoration:none;}
-        footer {text-align:center; padding:2rem; background:#fff; box-shadow:0 -2px 4px rgba(0,0,0,0.05);}
-        @media (max-width:600px) {#about {flex-direction:column; text-align:center;} #about p {flex:none;}}
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+        nav {
+            background: #fff;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            padding: 4rem 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        #about {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 2rem;
+        }
+        #about img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        #about p {
+            flex: 1;
+            line-height: 1.8;
+        }
+        .social-links a {
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        #works a {
+            display: block;
+            margin-bottom: 1rem;
+            text-decoration: none;
+            color: #0077cc;
+        }
+        #contact a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #fff;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
+        }
+        @media (max-width: 600px) {
+            #about {
+                flex-direction: column;
+                text-align: center;
+            }
+            #about p {
+                flex: none;
+            }
+        }
     </style>
 </head>
 <body>
-<nav>
-    <ul>
-        <li><a href="#about">درباره</a></li>
-        <li><a href="#works">کارها</a></li>
-        <li><a href="#contact">تماس</a></li>
-    </ul>
-</nav>
+    <nav>
+        <ul>
+            <li><a href="#about">درباره</a></li>
+            <li><a href="#works">کارها</a></li>
+            <li><a href="#contact">تماس</a></li>
+        </ul>
+    </nav>
 
-<section id="about">
-    <img src="profile.jpg" alt="مصطفی آصفی">
-    <p>مصطفی آصفی هستم. پژوهش رو دوست دارم. مهندسی معدن خوندم اما از وقتی استفاده از هوش مصنوعی تو مهندسی معدن رو شروع کردم کم‌کم از معدن فاصله گرفتم و بیشتر به این سمت کشیده شدم. سالیان گذشته بیشتر روی یادگیری ماشین و شبکه عصبی پژوهش می‌کردم. این روزها در کنارش روی هوش مصنوعی زایا برای زندگی شخصی و حرفه‌ای آدم‌ها تحقیق می‌کنم.</p>
-</section>
+    <section id="about">
+        <img src="profile.jpg" alt="مصطفی آصفی">
+        <p>مصطفی آصفی هستم. پژوهش رو دوست دارم. مهندسی معدن خوندم اما از وقتی استفاده از هوش مصنوعی تو مهندسی معدن رو شروع کردم کم‌کم از معدن فاصله گرفتم و بیشتر به این سمت کشیده شدم. سالیان گذشته بیشتر روی یادگیری ماشین و شبکه عصبی پژوهش می‌کردم. این روزها در کنارش روی هوش مصنوعی زایا برای زندگی شخصی و حرفه‌ای آدم‌ها تحقیق می‌کنم.</p>
+    </section>
 
-<div class="social-links" style="text-align:center;">
-    <a href="https://instagram.com/asefycom" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-    <a href="https://t.me/asefycom" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
-    <a href="https://www.youtube.com/@asefycom" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-</div>
+    <div class="social-links" style="text-align:center;">
+        <a href="https://instagram.com/asefycom">اینستاگرام</a>
+        <a href="https://t.me/asefycom">تلگرام</a>
+        <a href="https://www.youtube.com/@asefycom">یوتیوب</a>
+    </div>
 
-<section id="works">
-    <h2>از کارهام</h2>
-    <a href="https://pub.modares.ac.ir/book_treasure.php?mod=viewbook&book_id=412&slc_lang=fa&sid=1">کتاب مهندسی انفجار با سیستم‌های هوشمند - ۱۴۰۱ - انتشارات دانشگاه تربیت مدرس</a>
-    <a href="https://pub.modares.ac.ir/book_treasure.php?mod=viewbook&book_id=422&slc_lang=fa&sid=1">کتاب مدلسازی کانسارهای معدنی: تئوری و اجرا - ۱۴۰۲ - انتشارات دانشگاه تربیت مدرس</a>
-    <a href="https://hamruyesh.com/product/deep-learning-intro-pack/">کلاس آنلاین آموزش مبانی یادگیری عمیق (نسخه ضبطی)</a>
-    <a href="https://hamruyesh.com/product/machine-learning-free-course-geron-book/">بسته چندرسانه‌ای روش‌شناسی پروژه‌های یادگیری ماشین</a>
-    <a href="https://hamruyesh.com/product/python-crash-course/">بسته چندرسانه‌ای آموزش برنامه نویسی با پایتون از صفر</a>
-    <a href="https://hamruyesh.com/product/artificial-neural-networks-tutorial-from-scratch/">بسته چندرسانه‌ای آموزش شبکه عصبی از صفر</a>
-    <a href="https://hamruyesh.com/product/ai-automation-n8n-zapier/">کارگاه خودکارسازی کار و زندگی با هوش مصنوعی (نسخه‌ضبطی)</a>
-</section>
+    <section id="works">
+        <h2>از کارهام</h2>
+        <a href="https://pub.modares.ac.ir/book_treasure.php?mod=viewbook&book_id=412&slc_lang=fa&sid=1">کتاب مهندسی انفجار با سیستم‌های هوشمند - ۱۴۰۱ - انتشارات دانشگاه تربیت مدرس</a>
+        <a href="https://pub.modares.ac.ir/book_treasure.php?mod=viewbook&book_id=422&slc_lang=fa&sid=1">کتاب مدلسازی کانسارهای معدنی: تئوری و اجرا - ۱۴۰۲ - انتشارات دانشگاه تربیت مدرس</a>
+        <a href="https://hamruyesh.com/product/deep-learning-intro-pack/">کلاس آنلاین آموزش مبانی یادگیری عمیق (نسخه ضبطی)</a>
+        <a href="https://hamruyesh.com/product/machine-learning-free-course-geron-book/">بسته چندرسانه‌ای روش‌شناسی پروژه‌های یادگیری ماشین</a>
+        <a href="https://hamruyesh.com/product/python-crash-course/">بسته چندرسانه‌ای آموزش برنامه نویسی با پایتون از صفر</a>
+        <a href="https://hamruyesh.com/product/artificial-neural-networks-tutorial-from-scratch/">بسته چندرسانه‌ای آموزش شبکه عصبی از صفر</a>
+        <a href="https://hamruyesh.com/product/ai-automation-n8n-zapier/">کارگاه خودکارسازی کار و زندگی با هوش مصنوعی (نسخه‌ضبطی)</a>
+    </section>
 
-<section id="contact">
-    <h2>تماس با من</h2>
-    <p>آخرین یافته‌هام رو می‌تونید <a href="https://instagram.com/asefycom">اینستاگرام</a>، <a href="https://t.me/asefycom">تلگرام</a> یا <a href="https://www.youtube.com/@asefycom">یوتیوب</a> با شناسه AsefyCom دنبال کنید. از ایرانی‌ها هم در تلاشم که تو <a href="https://www.aparat.com/asefycom">آپارات</a> و <a href="https://rubika.ir/asefycom">روبیکا</a> کارهام رو با همین شناسه تکرار کنم تا یافته‌های تخصصی به گوش آدم‌هایی با طرز فکرهای گوناگون برسه.<br><br>برای درخواست مشاوره یا همکاری به جیمیل <a href="mailto:asefycom@gmail.com">asefycom@gmail.com</a> پیام بفرستید. برای درخواست مشاوره آنلاین لطفا شرح نیازتون رو راحت و شفاف و کوتاه بنویسید. برای درخواست برگزاری دوره یا کارگاه دقت کنید که فقط به صورت گروهی یا شرکتی میسر هست. برای پیشنهاد همکاری توجه بفرمایید که فقط به عنوان پژوهشگر یا مشاور پاره وقت امکان همکاری دارم.<br><br>در هر دو صورت اگر کاری از من ساخته باشه تا ۲۴ ساعت بعد پاسخ دریافت می‌کنید.</p>
-</section>
+    <section id="contact">
+        <h2>تماس با من</h2>
+        <p>
+            آخرین یافته‌هام رو می‌تونید <a href="https://instagram.com/asefycom">اینستاگرام</a>، <a href="https://t.me/asefycom">تلگرام</a> یا <a href="https://www.youtube.com/@asefycom">یوتیوب</a> با شناسه AsefyCom دنبال کنید. از ایرانی‌ها هم در تلاشم که تو <a href="https://www.aparat.com/asefycom">آپارات</a> و <a href="https://rubika.ir/asefycom">روبیکا</a> کارهام رو با همین شناسه تکرار کنم تا یافته‌های تخصصی به گوش آدم‌هایی با طرز فکرهای گوناگون برسه.<br><br>
 
-<footer>طراحی ChatGPT با میزبانی Github</footer>
+            برای درخواست مشاوره یا همکاری به جیمیل <a href="mailto:asefycom@gmail.com">asefycom@gmail.com</a> پیام بفرستید. برای درخواست مشاوره آنلاین لطفا شرح نیازتون رو راحت و شفاف و کوتاه بنویسید. برای درخواست برگزاری دوره یا کارگاه دقت کنید که فقط به صورت گروهی یا شرکتی میسر هست. برای پیشنهاد همکاری توجه بفرمایید که فقط به عنوان پژوهشگر یا مشاور پاره وقت امکان همکاری دارم.<br><br>
+
+            در هر دو صورت اگر کاری از من ساخته باشه تا ۲۴ ساعت بعد پاسخ دریافت می‌کنید.
+        </p>
+    </section>
+
+    <footer>
+        طراحی ChatGPT با میزبانی Github
+    </footer>
 </body>
 </html>
